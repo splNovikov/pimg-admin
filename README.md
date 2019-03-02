@@ -2,15 +2,24 @@
 
 #### This project assumes you have brew, nvm, and yarn installed
 
-### Step 1.
-Run command: `yarn install`
+1. Run command: `yarn install`
 
-### Step 2.
-Adjust your IDE
+- Adjust your IDE
 
-#### How to adjust your IDE
+#### How should I adjust my IDE?
 
-**We are following this article: [Set up create-react-app](https://medium.com/stephenkoo/how-to-set-up-create-react-app-redux-react-router-redux-thunk-prettier-scss-airbnb-eslint-dda0bba5616a)**
+1. Add `code_scheme` to your IDE
+   - WebStorm | Preferences | Editor | Code Style
+     <br>
+     ![what i have to choose](config/scheme_scange.png)
+   - select file from path: `your app/config/code_scheme.xml`
+
+- Integrate Prettier in [your editor](https://prettier.io/docs/en/editors.html).
+
+  - For [WebStorm](https://prettier.io/docs/en/webstorm.html)
+
+**We've taken steps above from this article: [Set up create-react-app](https://medium.com/stephenkoo/how-to-set-up-create-react-app-redux-react-router-redux-thunk-prettier-scss-airbnb-eslint-dda0bba5616a)**
 
 ### Last step. Finally
+
 Run command: `npm run start`
