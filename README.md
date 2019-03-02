@@ -2,11 +2,11 @@
 
 #### This project assumes you have brew, nvm, and yarn installed
 
-1. Run command: `yarn install`
+1. Run command: `yarn`
 
 2. Adjust your IDE
 
-3. Run command: `npm run start`
+3. Run command: `yarn start`
 
 ### How should I adjust my IDE?
 
