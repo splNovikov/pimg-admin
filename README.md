@@ -9,10 +9,12 @@
 #### How should I adjust my IDE?
 
 1. Add `code_scheme` to your IDE
+
    - WebStorm | Preferences | Editor | Code Style
-     <br>
-     ![what i have to choose](config/scheme_scange.png)
-   - select file from path: `your app/config/code_scheme.xml`
+     <br />
+     <img src="config/scheme_change.png" width='400'/>
+
+- select file from path: `your app/config/code_scheme.xml`
 
 - Integrate Prettier in [your editor](https://prettier.io/docs/en/editors.html).
 
