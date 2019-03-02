@@ -12,3 +12,5 @@ Adjust your IDE
 
 **We are following this article: [Set up create-react-app](https://medium.com/stephenkoo/how-to-set-up-create-react-app-redux-react-router-redux-thunk-prettier-scss-airbnb-eslint-dda0bba5616a)**
 
+### Last step. Finally
+Run command: `npm run start`
