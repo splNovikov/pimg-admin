@@ -1,9 +1,5 @@
 .tiger {
-  font-size: 5rem;
-
-  .app-logo {
-    animation: spin infinite 2s linear;
-    height: 40vmin;
-    pointer-events: none;
-  }
+  animation: spin infinite 10s linear;
+  height: 20vmin;
+  pointer-events: none;
 }

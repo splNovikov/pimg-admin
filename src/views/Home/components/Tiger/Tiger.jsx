@@ -1,12 +1,13 @@
 import React from 'react';
 
-import logo from '../../../../assets/images/logo.svg';
 import './Tiger.scss';
 
 const Tiger = () => (
-  <div className="tiger">
-    <img src={logo} className="app-logo" alt="logo" />
-  </div>
+  <img
+    src="https://pp.userapi.com/c844618/v844618510/1c3fd1/kXV3VL_XtKA.jpg"
+    className="tiger"
+    alt="logo"
+  />
 );
 
 export default Tiger;
