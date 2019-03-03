@@ -1,19 +1,17 @@
 import React from 'react';
-import logo from '../../assets/images/logo.svg';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+import Header from '../Header';
+import routes from '../../routes';
 import './App.scss';
 
 const App = () => (
-  <div className="App">
-    <div className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <h2>Welcome to React</h2>
+  <Router>
+    <div className="app">
+      <Header />
+      {routes}
     </div>
-    <p className="App-intro">
-      To get started, edit
-      <code>src/App.js</code>
-      and save to reload.
-    </p>
-  </div>
+  </Router>
 );
 
 export default App;
