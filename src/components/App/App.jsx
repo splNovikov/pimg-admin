@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { Container } from 'semantic-ui-react';
 
 import Header from '../Header';
 import routes from '../../routes';
@@ -9,7 +10,10 @@ const App = () => (
   <Router>
     <div className="app">
       <Header />
-      {routes}
+
+      <Container text className="content">
+        {routes}
+      </Container>
     </div>
   </Router>
 );
