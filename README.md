@@ -23,3 +23,8 @@
 2. Integrate Prettier in [your editor](https://prettier.io/docs/en/editors.html).
 
    - For [WebStorm](https://prettier.io/docs/en/webstorm.html)
+
+# What folders structure do we use?
+
+**We've taken feature-centric approch for our application from the following resource:**
+[React Apps: Approaching Organization / Structure / Architecture](https://medium.com/maintainable-react-apps/react-apps-approaching-organization-structure-architecture-49a281bd97eb)
