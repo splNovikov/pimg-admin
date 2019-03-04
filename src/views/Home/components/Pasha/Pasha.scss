@@ -1,20 +1,6 @@
-@keyframes pasha-appearing {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
 .pasha {
   margin-left: 50px;
-  animation: pasha-appearing 4s infinite;
+  animation: appear 4s infinite;
   height: 50vmin;
   pointer-events: none;
 }
